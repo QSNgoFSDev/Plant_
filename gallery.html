@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bloom Valley Nursery - Gallery</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo-title-container">
+      <img src="images/logo.png" alt="Bloom Valley Nursery Logo" class="logo">
+      <h1>Bloom Valley Nursery</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="custompage.html">Community</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Our Plant Gallery</h1>
+    <div class="gallery-container">
+      <table class="gallery-table">
+        <tr>
+          <td>
+            <img src="images/Client1_AloePlant.png" alt="Aloe Plant">
+            <button class="add-to-cart">Add to Cart</button>
+          </td>
+          <td>
+            <img src="images/Client1_AppleTree.png" alt="Apple Tree">
+            <button class="add-to-cart">Add to Cart</button>
+          </td>
+          <td>
+            <img src="images/Client1_BirchTree.png" alt="Birch Tree">
+            <button class="add-to-cart">Add to Cart</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="images/Client1_MapleTree.png" alt="Maple Tree">
+            <button class="add-to-cart">Add to Cart</button>
+          </td>
+          <td>
+            <img src="images/Client1_SpiderPlant.png" alt="Spider Plant">
+            <button class="add-to-cart">Add to Cart</button>
+          </td>
+          <td>
+            <img src="images/Client1_StringofPearls.png" alt="String of Pearls">
+            <button class="add-to-cart">Add to Cart</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="images/Client1_WateringCan.png" alt="Maple Tree">
+            <button class="add-to-cart">Add to Cart</button>
+          </td>
+          <td>
+            <img src="images/Client1_BirdHouse.png" alt="Spider Plant">
+            <button class="add-to-cart">Add to Cart</button>
+          </td>
+          <td>
+            <img src="images/Client1_PottingSoil.png" alt="String of Pearls">
+            <button class="add-to-cart">Add to Cart</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="cart-section">
+      <button id="view-cart" class="view-cart">View Cart</button>
+      <div id="cart-contents" style="display: none;">
+        <h3>Cart Contents:</h3>
+        <ul id="cart-items"></ul>
+        <p>Total Items: <span id="cart-total">0</span></p>
+      </div>
+      <button id="clear-cart" class="clear-cart">Clear Cart</button>
+      <button id="process-order" class="process-order">Process Order</button>
+    </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Bloom Valley Nursery. All rights reserved.</p>
+    <form name="subscribe">
+      <input type="email" placeholder="Enter your email" required>
+      <button type="submit" class="submit-btn">Subscribe</button>
+    </form>
+  </footer>
+</body>
+
+</html>
